@@ -2,6 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
 import Question from "../components/Question";
+import React, { useEffect } from 'react';  // Add useEffect to the import
 
 const testQuestion = {
   id: 1,
